@@ -8,7 +8,7 @@ import store from './store';
 
 config.set({ 
 	dev: {
-		api_url: 'https://run.mocky.io/v3/c2bf5ea5-56a8-4826-b682-512b58ac45f3'
+		api_url: 'https://run.mocky.io/v3/3e285883-d974-482e-8ccb-3a7e77a72d62'
 	}
 });
 

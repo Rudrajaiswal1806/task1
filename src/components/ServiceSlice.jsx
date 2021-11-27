@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
     const initialState = {
-        service: {}    
+        service: []    
     }
   
 export const ServiceSlice = createSlice({
@@ -13,10 +13,10 @@ export const ServiceSlice = createSlice({
     setService: (state, action) => {
         return {
             ...state,
-            service: {
+            service: [
                 ...state.service,
                 ...action.payload
-            }
+            ]
         }
     },
         
