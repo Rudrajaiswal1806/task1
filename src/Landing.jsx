@@ -9,7 +9,7 @@ const Landing = () => {
            <Hero/>
            <Service/>
            <Price/>
-           <h1>hgjhgh</h1>
+           
            </>           
         );      
 }

@@ -1,7 +1,9 @@
 import React from "react";
+import BasicPrice from "./BasicPrice";
 
 const Price = () => {
     return (
+        <>
         <div className="container text-center mt-5">
         <h1 className="w-50 mx-auto  text-black fw-bold">Ready to get started with Lemon Wares?</h1>
         <p className="fs-4 my-3">choose the package that suits you</p>
@@ -17,11 +19,13 @@ const Price = () => {
             <h3 className="text-black fw-bold  ">Basic</h3>
             <h3 className="text-black fw-bold ">Premium</h3>
         </div>
-        <div className="progress my-3" style={{height:'5px'}}>
+        <div className="progress mt-3 mb-5" style={{height:'5px'}}>
             <div className="progress-bar w-50  bg-danger " style={{height:'5px'}} ></div>
         </div>
-
+        
         </div>
+        <BasicPrice/>
+        </>
     );
 }
 export default Price;
